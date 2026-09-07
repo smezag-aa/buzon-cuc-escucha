@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buzón CUC Escucha</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Buzón CUC Escucha</h1>
+        <p>Tu opinión nos ayuda a mejorar nuestra Facultad de Ingeniería</p>
+    </header>
+    <main>
+        <section class="contenedor">
+            <h2>Registrar una sugerencia</h2>
+            <form>
+                <div class="grupo">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Santiago Mesa" required>
+                </div>
+                <div class="grupo">
+                    <label for="correo">Correo institucional</label>
+                    <input type="email" id="correo" name="correo" placeholder="correo@cuc.edu.co" required>
+                </div>
+                <div class="grupo">
+                    <label for="tema">Tema de la sugerencia</label>
+                    <select id="tema" name="tema" required>
+                        <option value="">Seleccione un aspecto</option>
+                        <option value="bienestar">Bienestar</option>
+                        <option value="servicios">Servicios</option>
+                        <option value="clases">Clases</option>
+                        <option value="inclusion">Inclusión</option>
+                        <option value="espacios">Espacios</option>
+                        <option value="procesos">Procesos académicos</option>
+                    </select>
+                </div>
+                <div class="fila">
+                    <div class="grupo">
+                        <label for="fecha">Fecha</label>
+                        <input type="date" id="fecha" name="fecha" required>
+                    </div>
+                </div>
+                <div class="grupo">
+                    <label for="mensaje">Sugerencia o idea</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe aquí tu sugerencia detallada..." required></textarea>
+                </div>
+                <button type="submit">Enviar sugerencia</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Facultad de Ingeniería | Universidad de la Costa</p>
+    </footer>
+</body>
+</html>
