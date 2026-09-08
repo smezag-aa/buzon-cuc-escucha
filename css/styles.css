@@ -5,19 +5,20 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f7f8;
-    color: #333;
+    font-family: 'Courier New', Courier, monospace; /* Tipografía de máquina de escribir muy evidente */
+    background-color: #1a1a1a; /* Fondo casi negro */
+    color: #f1f1f1; /* Texto blanco/gris claro */
 }
 
 
 /* ENCABEZADO */
 
 header {
-    background-color: #168aad;
+    background-color: #168aad; /* Un azul suave */
     color: white;
     text-align: center;
     padding: 30px;
+    border-bottom: 5px solid #ffb703; /* Borde amarillo brillante inferior */
 }
 
 header h1 {
@@ -37,18 +38,18 @@ main {
 /* TARJETA DEL FORMULARIO */
 
 .contenedor {
-    background-color: white;
+    background-color: #2b2b2b; /* Fondo gris oscuro para la tarjeta */
     width: 100%;
     max-width: 650px;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8); /* Sombra mucho más marcada */
 }
 
 .contenedor h2 {
     text-align: center;
     margin-bottom: 25px;
-    color: #168aad;
+    color: #ffb703; /* Título en amarillo brillante */
 }
 
 
